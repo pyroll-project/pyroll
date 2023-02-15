@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyroll"
-version = "2.0.0b"
+version = "2.0.0rc"
 description = "A meta package for installing quickly the PyRolL Core, CLI, Report and Export. The provided functionality is similar to the old pyroll package, which was split up into distinct packages with version 2.0."
 authors = ["Max Weiner <max.weiner@imf.tu-freiberg.de>"]
 license = "BSD-3-Clause"
@@ -8,9 +8,7 @@ homepage = "https://pyroll-project.github.io"
 repository = "https://github.com/pyroll-project/pyroll"
 documentation = "https://pyroll.readthedocs.io/en/latest"
 readme = "README.md"
-packages = [
-#    {include = "pyroll/basic.py" }
-]
+packages = []
 classifiers = [
     "Intended Audience :: Science/Research",
     "Intended Audience :: Manufacturing",
@@ -20,10 +18,10 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9, <4.0"
-pyroll-core = "^2.0.0b"
-pyroll-cli = "^2.0.0b"
-pyroll-report = "^2.0.0b"
-pyroll-export = "^2.0.0b"
+pyroll-core = "^2.0.0rc"
+pyroll-cli = "^2.0.0rc"
+pyroll-report = "^2.0.0rc"
+pyroll-export = "^2.0.0rc"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
